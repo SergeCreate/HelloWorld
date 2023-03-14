@@ -16,26 +16,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zM1-m0-ZHq">
-                                <rect key="frame" x="16" y="59" width="398" height="402"/>
-                                <color key="backgroundColor" systemColor="systemTealColor"/>
-                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Is7-jw-fmt">
-                                <rect key="frame" x="16" y="496" width="398" height="402"/>
+                                <rect key="frame" x="16" y="506" width="398" height="392"/>
                                 <color key="backgroundColor" systemColor="systemPinkColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zM1-m0-ZHq">
+                                <rect key="frame" x="16" y="79" width="398" height="392"/>
+                                <color key="backgroundColor" systemColor="systemTealColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="zM1-m0-ZHq" firstAttribute="height" secondItem="Is7-jw-fmt" secondAttribute="height" id="0ZC-7g-WEM"/>
-                            <constraint firstItem="zM1-m0-ZHq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="2mD-Vp-TL7"/>
-                            <constraint firstItem="Is7-jw-fmt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="JN1-ck-QdF"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Is7-jw-fmt" secondAttribute="trailing" constant="16" id="XuM-v1-1Q4"/>
-                            <constraint firstItem="Is7-jw-fmt" firstAttribute="top" secondItem="zM1-m0-ZHq" secondAttribute="bottom" constant="35" id="Y56-vr-HfI"/>
-                            <constraint firstItem="Is7-jw-fmt" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="ZUE-7W-zi2"/>
-                            <constraint firstItem="zM1-m0-ZHq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="gUs-ea-eea"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zM1-m0-ZHq" secondAttribute="trailing" constant="16" id="t2p-6f-KBx"/>
+                            <constraint firstItem="Is7-jw-fmt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="4Nh-B3-VlI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Is7-jw-fmt" secondAttribute="trailing" constant="16" id="BHe-8i-thG"/>
+                            <constraint firstItem="Is7-jw-fmt" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Hrj-mS-8Ll"/>
+                            <constraint firstItem="zM1-m0-ZHq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="IUg-6l-lNw"/>
+                            <constraint firstItem="zM1-m0-ZHq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="R3E-4V-PJC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zM1-m0-ZHq" secondAttribute="trailing" constant="16" id="TTS-4K-T9j"/>
+                            <constraint firstItem="zM1-m0-ZHq" firstAttribute="height" secondItem="Is7-jw-fmt" secondAttribute="height" id="lHE-dE-omf"/>
+                            <constraint firstItem="Is7-jw-fmt" firstAttribute="top" secondItem="zM1-m0-ZHq" secondAttribute="bottom" constant="35" id="xzV-oM-ssg"/>
                         </constraints>
                     </view>
                 </viewController>
